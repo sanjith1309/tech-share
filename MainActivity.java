@@ -18,7 +18,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
-    DatabaseReference databasereference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://tech-share-5f5e9-default-rtdb.firebaseio.com/");
+    DatabaseReference databasereference = FirebaseDatabase.getInstance().getReferenceFromUrl("your _ fire base _ path");
     private TextView topicview,dataview;
     EditText content;
     Button post,refresh;
